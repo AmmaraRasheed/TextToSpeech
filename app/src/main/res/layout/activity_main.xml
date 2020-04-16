@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Text To Speech Program" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Text"
+        android:id="@+id/text"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="Convert Text To Speech"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/btn1"
+        android:textColor="#FFFFFF"
+        android:onClick="ButtonClick"
+        android:textSize="15dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
